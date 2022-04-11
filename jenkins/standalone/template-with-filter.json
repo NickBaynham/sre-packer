@@ -16,7 +16,7 @@
             "source_ami_filter": {
                 "filters": {
                     "virtualization-type": "hvm",
-                    "name": "Amazon Linux 2 AMI (HVM) - *",
+                    "description": "Amazon Linux 2 Kernel 5.10 AMI 2.0.20220316.0 x86_64 HVM gp2",
                     "root-device-type": "ebs"
                 },
                 "owners": [

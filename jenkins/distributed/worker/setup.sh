@@ -2,8 +2,7 @@
 
 echo "Install Java JDK 8"
 yum remove -y java
-yum install -y java-1.8.0-openjdk
-
+amazon-linux-extras install -y java-openjdk11
 echo "Install Docker engine"
 yum update -y
 yum install docker -y

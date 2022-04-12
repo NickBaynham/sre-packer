@@ -1,6 +1,7 @@
 # Image Pipeline
 - replace PRIVATE SSH KEY with ~/.ssh/id_rsa
 - add the region, profile
+- change the version number if an ami image already exists
 
 ```
 cd /root/sre-packer/jenkins/distributed/master
